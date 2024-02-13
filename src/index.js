@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import "bootstrap-icons/font/bootstrap-icons.css";
+import 'bootstrap/dist/css/bootstrap.css';
 import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
 import Navbar from './navbar'
 import Home from './pages/home'
