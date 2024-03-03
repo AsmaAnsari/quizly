@@ -7,14 +7,14 @@ import "./style.css"
 import "bootstrap-icons/font/bootstrap-icons.css";
 import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from './navbar'
-import Home from './pages/home'
-import About from './pages/about'
-import Contact from './pages/contact'
-import Quizes from './pages/quizes'
-import Science from './pages/science';
-import Math from './pages/math';
-import Economics from './pages/economics';
-import WebQuiz from './pages/webQuiz';
+import Home from './pages/home.js'
+import About from './pages/about.js'
+import Contact from './pages/contact.js'
+import Quizes from './pages/quizes.js'
+import Science from './pages/science.js';
+import Math from './pages/math.js';
+import Economics from './pages/economics.js';
+import WebQuiz from './pages/webQuiz.js';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
